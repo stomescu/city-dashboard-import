@@ -1,0 +1,30 @@
+{
+  "name": "city-dashboard-import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stomescu/city-dashboard-import.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stomescu/city-dashboard-import/issues"
+  },
+  "homepage": "https://github.com/stomescu/city-dashboard-import#readme",
+  "dependencies": {
+    "@prisma/client": "^4.0.0",
+    "@sindresorhus/slugify": "^2.1.0",
+    "csv": "^6.2.0",
+    "csv-parse": "^5.3.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prisma": "^4.0.0"
+  }
+}
